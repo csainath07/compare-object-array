@@ -1,5 +1,5 @@
 // compare two object
-export function compareObject(obj1, obj2) {
+function compareObject(obj1, obj2) {
     let isUpdated = false;
     let result = _setResultObject();
     // 1) check type of given parameters
@@ -17,7 +17,7 @@ export function compareObject(obj1, obj2) {
 }
 
 // compare two array
-export function compareArray(arr1, arr2) {
+function compareArray(arr1, arr2) {
     let isUpdated = false;
     let result = _setResultObject();
     // 1) check type of given parameters
@@ -33,6 +33,11 @@ export function compareArray(arr1, arr2) {
     // return result
     return result;
 }
+
+module.exports = {
+    compareObject,
+    compareArray
+};
 
 // **************************************** Private Methods *****************************
 
