@@ -1,0 +1,30 @@
+{
+  "name": "compare-object-array",
+  "version": "1.0.0",
+  "description": "Javascript library for deep compare two objects or arrays ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csainath07/compare-object-array.git"
+  },
+  "keywords": [
+    "compare",
+    "compare",
+    "object",
+    "compare",
+    "array",
+    "deep",
+    "compare",
+    "deep",
+    "diff"
+  ],
+  "author": "Sainath Chorghe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csainath07/compare-object-array/issues"
+  },
+  "homepage": "https://github.com/csainath07/compare-object-array#readme"
+}
